@@ -1,5 +1,5 @@
 nav {
-    background-color: pink;
+    background-color: red;
     text-align: left;
     color: rgb(0, 0, 0);
     padding: 2.0%;
@@ -40,7 +40,7 @@ h2 {
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #111;
+    background-color: red;
     overflow-x: hidden;
     padding-top: 20px;
 }
