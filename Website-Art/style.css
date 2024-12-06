@@ -56,7 +56,11 @@ h2 {
 }
   
 .sidenav a:hover {
-    color: blueviolet;
+    color: blue;
+}
+
+.sidenav a:visited {
+    color: purple; /* Changes to purple after the link is clicked */
 }
   
 .main {
