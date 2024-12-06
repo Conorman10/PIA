@@ -137,19 +137,37 @@ h2 {
 }
 
 .about {
-    color: white;
+    color: #00ffff; 
     text-align: center;
     font-size: 40px;
-    padding: 20px; 
-    margin: 0 auto; 
-    background-color: #3e3e3e; 
-    border: 5px solid gold; 
-    border-radius: 15px; 
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
-    max-width: 1400px; 
-    font-family: 'Georgia', serif; 
-    letter-spacing: 1px; 
-    line-height: 1.6; 
+    padding: 20px;
+    margin: 0 auto;
+    background: linear-gradient(135deg, #1a1a1a, #333333); 
+    border: 3px solid #00ffff; 
+    border-radius: 15px;
+    box-shadow: 
+        0 0 15px rgba(0, 255, 255, 0.8), 
+        inset 0 0 10px rgba(0, 255, 255, 0.3); 
+    max-width: 800px;
+    font-family: 'Orbitron', sans-serif; 
+    letter-spacing: 2px; 
+    line-height: 1.6;
+    text-transform: uppercase; 
+    position: relative; 
+    animation: neon-glow 1.5s infinite alternate;
+}
+
+@keyframes neon-glow {
+    0% {
+        box-shadow: 
+            0 0 10px rgba(0, 255, 255, 0.5), 
+            inset 0 0 5px rgba(0, 255, 255, 0.2);
+    }
+    100% {
+        box-shadow: 
+            0 0 20px rgba(0, 255, 255, 1), 
+            inset 0 0 10px rgba(0, 255, 255, 0.5);
+    }
 }
 
 .contact {
