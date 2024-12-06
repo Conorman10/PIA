@@ -26,32 +26,28 @@ img {
 
 h1 {
     font-size: 100px;
-    color: #00ffff; 
+    color: #f0f0f0; 
     text-align: center; 
     font-family: 'Orbitron', sans-serif; 
     text-transform: uppercase; 
     letter-spacing: 5px; 
     text-shadow: 
-        0 0 10px #00ffff, 
-        0 0 20px #00ffff, 
-        0 0 40px rgba(0, 255, 255, 0.8); 
-    animation: flicker 2s infinite; 
+        0 0 5px rgba(255, 255, 255, 0.5), 
+        0 0 10px rgba(255, 255, 255, 0.3), 
+        0 0 15px rgba(255, 255, 255, 0.2); 
+    animation: soft-pulse 3s infinite alternate; 
 }
 
-@keyframes flicker {
-    0%, 100% {
-        opacity: 1;
+@keyframes soft-pulse {
+    0% {
         text-shadow: 
-            0 0 10px #00ffff, 
-            0 0 20px #00ffff, 
-            0 0 40px rgba(0, 255, 255, 0.8);
+            0 0 5px rgba(255, 255, 255, 0.4), 
+            0 0 10px rgba(255, 255, 255, 0.2);
     }
-    50% {
-        opacity: 0.8;
+    100% {
         text-shadow: 
-            0 0 8px #00ffff, 
-            0 0 15px #00ffff, 
-            0 0 30px rgba(0, 255, 255, 0.5);
+            0 0 8px rgba(255, 255, 255, 0.6), 
+            0 0 15px rgba(255, 255, 255, 0.4);
     }
 }
 
