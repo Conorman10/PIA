@@ -249,14 +249,13 @@ audio {
     border-radius: 10px; 
 }
 
-img, video {
+img, iframe {
     border: 5px solid white; 
     border-radius: 10px; 
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); 
     transition: box-shadow 0.3s ease-in-out; 
 }
 
-img:hover, video:hover {
+img:hover, iframe:hover {
     box-shadow: 0 0 25px rgba(255, 255, 255, 1); 
 }
-
