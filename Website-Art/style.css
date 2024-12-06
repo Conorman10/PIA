@@ -26,7 +26,33 @@ img {
 
 h1 {
     font-size: 100px;
-    color: white 
+    color: #00ffff; 
+    text-align: center; 
+    font-family: 'Orbitron', sans-serif; 
+    text-transform: uppercase; 
+    letter-spacing: 5px; 
+    text-shadow: 
+        0 0 10px #00ffff, 
+        0 0 20px #00ffff, 
+        0 0 40px rgba(0, 255, 255, 0.8); 
+    animation: flicker 2s infinite; 
+}
+
+@keyframes flicker {
+    0%, 100% {
+        opacity: 1;
+        text-shadow: 
+            0 0 10px #00ffff, 
+            0 0 20px #00ffff, 
+            0 0 40px rgba(0, 255, 255, 0.8);
+    }
+    50% {
+        opacity: 0.8;
+        text-shadow: 
+            0 0 8px #00ffff, 
+            0 0 15px #00ffff, 
+            0 0 30px rgba(0, 255, 255, 0.5);
+    }
 }
 
 h2 {
