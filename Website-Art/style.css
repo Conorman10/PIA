@@ -143,10 +143,10 @@ h2 {
     padding: 20px; 
     margin: 0 auto; 
     background-color: #3e3e3e; 
-    border: 5px solid #d4af37; 
+    border: 5px solid gold; 
     border-radius: 15px; 
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
-    max-width: 800px; 
+    max-width: 1400px; 
     font-family: 'Georgia', serif; 
     letter-spacing: 1px; 
     line-height: 1.6; 
