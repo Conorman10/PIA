@@ -159,7 +159,7 @@ h2 {
 }
 
 .about {
-    color: #00ffff; 
+    color:  white; 
     text-align: center;
     font-size: 40px;
     padding: 20px;
@@ -174,7 +174,7 @@ h2 {
     font-family: 'Orbitron', sans-serif; 
     letter-spacing: 2px; 
     line-height: 1.6;
-    text-transform: uppercase; 
+    text-transform: none; 
     position: relative; 
     animation: neon-glow 1.5s infinite alternate;
 }
